@@ -1,0 +1,984 @@
+  
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: 'Aspekta',sans-serif; */
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* editing the navbar */
+
+.nav{
+    width: 90%;
+    height: 15%;
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    padding: 20px;
+    justify-content: space-between;
+}
+
+hr{
+    height: 2px;
+    background-color: black;
+}
+
+/* editing the area with logo and menu */
+
+
+.logoandmenu{
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    justify-content: space-between;
+}
+
+.logo{
+    width: 20%;
+    padding-top: 0.3rem;
+}
+
+.logo h2{
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+
+.navmenu{
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu{
+    transition: all 0s ease-in-out;
+}
+
+.menu:hover{
+    transition: all 0s ease-in-out;
+    border-bottom: 2px solid black;
+}
+
+.menu a{
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    font-size: 1.1rem;
+    letter-spacing: -1px;
+}
+
+/* editing the search and cart area in navbar */
+
+.searchandcart{
+    width: 18%;
+    /* padding: 0.8rem; */
+    /* background-color: black; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* border-radius: 2rem; */
+}
+
+.searchbox{
+    padding: 0.5rem;
+    width: 80%;
+    /* background-color: blue; */
+    border-radius: 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: 1px solid black;
+}
+
+.searchicon{
+    width: 12%;
+    margin-top: 0.1rem;
+}
+
+.searchicon img{
+    width: 100%;
+}
+
+.searchinput input{
+    width: 80%;
+    border-radius: 2rem;
+    padding: 0.3rem;
+    border: none;
+    outline: none; 
+    /* color: black; */
+}
+
+::placeholder{
+    padding-left: 0.2rem;
+    color: black;
+    letter-spacing: -0.02rem;
+    font-weight: 500;
+}
+
+.cart{
+    background-color: black;
+    width: 18%;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center; 
+    margin-left: 0.2rem;   
+}
+
+.cart a{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.cart img{
+    width: 60%;
+}
+
+/* navbar edit finished */
+
+/* landing page edit begins */
+
+/* section editing */
+
+.firstone{
+    width: 100%;
+    height: 100vh;
+    margin: auto;
+    background-color: #e5e6e1;
+}
+
+.landingpage{
+    width: 88%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.leftbox{
+    width: 48%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 1.5rem;
+}
+
+.heading{
+    padding-bottom: 1rem;
+}
+
+.heading h1{
+    font-size: 4.4rem;
+    line-height: 5.6rem;
+    font-weight: 400;
+    letter-spacing: -0.2rem;
+}
+
+.mainbutton{
+    width: 12.5rem;
+    height: 3.87rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+}
+.mainbutton button{
+    width: 100%;
+    height: 100%;
+    margin-top: 1rem;
+    border-radius: 3.125rem;
+    font-size: 1rem;
+    line-height: 1.3rem;
+    color: white;
+    background-color: black;
+    transition: all 0.5s ease-in-out;
+}
+
+.mainbutton button:hover{
+    background-color: #fff;
+    border: 1px solid black;
+    color: black;
+    font-weight: 500;
+}
+
+.rightbox{
+    width: 48%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.imageboxone{
+    width: 46%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    /* justify-content: end; */
+    align-items: end;
+}
+
+.box{
+    width: 100%;
+    height: 70%;
+}
+
+.imageboxone img{
+    width: 100%;
+    height: fit-content;
+}
+.imageboxtwo{
+    width: 46%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+
+.imageboxtwo img{
+    width: 100%;
+    height: fit-content;
+}
+
+/* landing page edit ends */
+
+/* space before and after the second page */
+
+.forspace{
+    width: 100%;
+    height: 20vh;
+}
+
+/* second page edit begins */
+
+.intro{
+    width: 90%;
+    height: 160vh;
+    margin: auto;
+}
+
+.introcontainer{
+    width: 100%;
+    height: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.introleft{
+    width: 49.5%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: start; */
+}
+
+.introleftimage{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.introleftimage img{
+    width: 50%;
+}
+
+.introleftcontent{
+    margin-top: 6rem;
+}
+
+.introleftcontent h2{
+    font-size: 2.5rem;
+    line-height: 3rem;
+    font-weight: 400;
+    margin-bottom: 0.5rem;
+    letter-spacing: -0.1rem;
+}
+
+.introleftcontent p{
+    font-size: 0.875rem;
+    line-height: 1.8rem;
+    color: #333333;
+}
+
+.introright{
+    margin-top: 5rem;
+    width: 49.5%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+}
+
+.introrightimage{
+    width: 100%;
+    margin-bottom: 2rem;
+}
+
+.introrightimage img{
+    width: 100%;
+}
+
+.introrightcontent p{
+    font-size: 1rem;
+    line-height: 1.68rem;
+    color: #333333;
+    letter-spacing: -0.08rem;
+}
+
+.introrightbutton{
+    margin-top: 2.5rem;
+    width: 9.99rem;
+    height: 3.5rem;
+    border-radius: 3.125rem;
+    background-color: white;
+    border: 1px solid black;
+    /* padding-top: 13; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.5s ease-in-out;
+}
+
+.introrightbutton button{
+    background-color: white;
+    color: black;
+    border: none;
+    padding: 1rem;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.introrightbutton:hover{
+    cursor:pointer;
+}
+
+.introrightbutton button:hover{
+    cursor:pointer;
+}
+
+
+/* second page edit ends */
+
+/* third section edit begins */
+
+.thirdsection{
+    width: 88%;
+    height: 18rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin:auto;
+}
+
+.thirdheading{
+    width: 100%;
+    height: 3rem;
+    margin-bottom: 3rem;
+}
+
+.thirdheading h3{
+    font-size: 2.7rem;
+    line-height: 3rem;
+    font-weight: 400;
+    letter-spacing: -0.1rem;
+}
+
+.thirdboxcontainer{
+    width: 100%;
+    height: 12.5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.thirdbox{
+    width: 32%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.thirdboxleft{
+    width: 50%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.thirdboxleft img{
+    width: 100%;
+    display: block;
+    transition: transform 1s;
+}
+
+.thirdboxleft img:hover{
+   transform: scale(1.06);
+   transform-origin: 50% 50%; 
+}
+
+.thirdboxright{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.thirdboxlabel{
+    width: 85%;
+    height: 1.875rem;
+    margin: auto;
+}
+
+.thirdboxlabel h4{
+    font-size: 1.45rem;
+    line-height: 1.875rem;
+    letter-spacing: -0.05rem;
+    color: white;
+    font-weight: 400;
+}
+
+.thirdboxbutton{
+    width: 85%;
+    height: 1.875rem;
+    margin: auto;
+}
+
+.thirdboxbutton button{
+    height: 2.09rem;
+    width: 6.5rem;
+    border-radius: 1.875rem;
+    border: none;
+    font-size: 0.875rem;
+    line-height: 1.4rem;
+    font-weight: 500;
+    letter-spacing: -0.04rem;
+}
+
+.one{
+    background-color: #bbb2cf;
+}
+
+.two{
+    background-color: #ca9da2;
+}
+
+.three{
+    background-color: #e4b976;
+}
+
+/* third section edit ends*/
+
+/* fourth section edit begins */
+
+.fourthsection{
+    width: 88%;
+    height: 46.56rem;
+    margin: 9.375rem auto;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+}
+
+.fourthsectionheader{
+    width: 100%;
+    height: 6.25rem;
+    margin-bottom: 2.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+}
+
+.fourthsectionlabel{
+    width: 5.8rem;
+    height: 2.3rem;
+    border-radius: 1.875rem;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin: 0.375rem 1rem; */
+}
+
+.fourthsectionlabel h5{
+    font-size: 1rem;
+    line-height: 1.48rem;
+    font-weight: 400;
+    letter-spacing: -0.05rem;
+}
+
+.fourthsectionheading{
+    width: 100%;
+    height: 3rem;
+}
+
+.fourthsectionheading h3{
+    font-size: 2.5rem;
+    line-height: 3rem;
+    letter-spacing: -0.07rem;
+    font-weight: 400;
+}
+
+.fourthsectionbooks{
+    width: 100%;
+    height: 32rem;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.fourthsectionbook{
+    width: 23.5%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+}
+
+.fourthsectionbookimage{
+    width: 100%;
+    height: 27.375rem;
+}
+
+.fourthsectionbook img{
+    width: 100%;
+    transition: all 0.5s ease-in-out;
+}
+
+.fourthsectionbook img:hover{
+    transform: translateY(-0.2rem);
+}
+
+.fourthsectionbookname{
+    width: 100%;
+    height: 1.875rem;
+}
+
+.fourthsectionbookname h5{
+    font-size: 1.25rem;
+    line-height: 1.875rem;
+    letter-spacing: -0.05rem;
+    font-weight: 400;
+}
+
+.fourthsectionbookprice{
+    width: 100%;
+    height: 1.7rem;
+}
+
+.fourthsectionbookprice p{
+    font-size: 1.2rem;
+    line-height: 1.7rem;
+    color:#333333;
+    letter-spacing: -0.07rem;
+    font-weight: 400;
+}
+
+.fourthsectionbutton{
+    width: 88%;
+    height: 3.25rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin: auto;
+}
+
+.fourthbtn{
+    height: 100%;
+    width: 12%;
+    border-radius: 3.125rem;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.5s ease-in-out;
+    margin-top: 0.75rem;
+}
+
+.fourthbtn:hover{
+    background-color: black;
+    border:1px solid white;
+    color: white;
+    cursor: pointer;
+}
+
+
+
+/* end of fourth section edit */
+
+/* fifth section edit begins */
+
+.fifthsection{
+    width: 88%;
+    height: 14.5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: auto;
+}
+
+.fifthsectionbox{
+    width: 32.3%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    /* background-color: #bbb2cf; */
+}
+
+.fifthsectionboxleft{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: flex-end; */
+    width: 55%;
+    height: 100%;
+}
+
+.fifthsectionboxheading{
+    width: 90%;
+    height: 4.5rem;
+    margin-left: auto;
+    margin-bottom: 0.95rem;
+}
+
+.fifthsectionboxheading h3{
+    font-size: 1.5rem;
+    line-height: 2rem;
+    font-weight: 500;
+    letter-spacing: -0.05rem;
+}
+
+.fifthesectionboxpara{
+    width: 90%;
+    margin-left: auto;
+    height: 1.68rem;
+}
+
+.fifthesectionboxpara p{
+    font-size: 1.1rem;
+    line-height: 1.7rem;
+    color: #333333;
+    letter-spacing: -0.06rem;
+
+}
+
+.fifthsectionboxright{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    width: 45%;
+    height: 100%;
+}
+
+.fifthsectionboximage{
+    width: 9.5rem;
+    height: 9.5rem;
+    border-radius: 6.25rem;
+}
+
+.fifthsectionboximage img{
+    width: 100%;
+    /* object-fit: cover; */
+    border-radius: 6.25rem;
+}
+
+.fifthone{
+    background-color: #bbb2cf;
+}
+.fifthtwo{
+    background-color: #ca9da2;
+}
+.fifththree{
+    background-color: #e4b976;
+}
+
+.sixthsection{
+    width: 88%;
+    height: 70.56rem;
+    margin: 9.375rem auto;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+}
+
+.seventhsection{
+    width: 100%;
+    height: 21.625rem;
+    background-color: #f8efe5;
+    position: relative;
+}
+
+.seventhcontentbox{
+    width: 23.313rem;
+    height: 6rem;
+    position: absolute;
+    top: 50%;
+    left: 12%;
+    transform: translateY(-50%);
+}
+
+.seventhcontentbox h3{
+    font-size: 2.5rem;
+    line-height: 3rem;
+    font-weight: 500;
+    letter-spacing: -0.05rem;
+}
+
+.circleimagebox{
+    width: 10.313rem;
+    height: 5.188rem;
+    position: absolute;
+    bottom: 0;
+    left: 8%;
+}
+
+.circleimagebox img{
+    width: 100%;
+}
+
+.rectangleimage{
+    width: 14.188rem;
+    height: 18.43rem;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.rectangleimage img{
+    width: 100%;
+}
+
+.subscriptionbox{
+    width: 27.25rem;
+    height: 9.125rem;
+    position: absolute;
+    top: 52%;
+    left: 55%;
+    transform: translate(-50%,-50%);
+}
+
+.subscriptionlabel{
+    width: 100%;
+    height: 3.375rem;
+    margin-bottom: 1.56rem;
+}
+
+.subscriptionlabel p{
+    font-size: 1rem;
+    color: black;
+    line-height: 1.7rem;
+    letter-spacing: -0.05rem;
+    font-weight: 400;
+}
+
+.subscriptionemailbox{
+    width: 26.2rem;
+    height: 3.25rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: white;
+    border-radius: 3.125rem;
+}
+
+.emailinput{
+    width: 70%;
+    height: 3.25rem;
+    border-top-left-radius: 3.125rem;
+    border-bottom-left-radius: 3.125rem;
+}
+
+.emailinput input{
+    width: 100%;
+    height: 100%;
+    border-bottom-left-radius: 3.125rem;
+    border-top-left-radius: 3.125rem;
+    border: none;
+    margin-left: 1rem;
+    outline: none;
+}
+
+.subscribebutton{
+    width: 25%;
+    height: 2.60rem;
+    /* margin: 0.75rem 0; */
+    margin: auto 0.3rem;
+    border-top-right-radius: 3.125rem;
+    border-bottom-right-radius: 3.125rem;
+}
+
+.subscribebutton button{
+    width: 100%;
+    height: 100%;
+    border-radius: 3.125rem;
+    border: none;
+    background-color: black;
+    color: white; 
+    letter-spacing: -0.04rem;
+    transition: all 0.5s ease-in-out;
+    font-weight: 500;
+}
+
+.subscribebutton button:hover{
+    background-color: white;
+    border: 1px solid black;
+    color: black;
+}
+
+/* footer editing begins */
+
+footer{
+    width: 100%;
+    height: 35.875rem;
+    background-color: black;
+    color: white;
+}
+
+.topfooter{
+    width: 88%;
+    height: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    border-bottom: 3px solid #333333;
+}
+
+.contactpage{
+    margin: auto 0;
+    width: 50%;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.contactheading{
+    width: 100%;
+    height: 6rem;
+}
+
+.contactheading h3{
+    font-size: 2.5rem;
+    line-height: 3rem;
+    letter-spacing: -0.06rem;
+    font-weight: 400;
+}
+
+.contactbutton{
+    height: 3.25rem;
+    width: 19%;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.contactbutton button{
+    border-radius: 3.125rem;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    border:1px solid white;
+    color: white;
+    transition: all 0.5s ease-in-out;
+}
+.contactbutton button:hover{
+    cursor: pointer;
+    background-color: #fff;
+    color: black;
+}
+
+.footerlinks{
+    width: 10%;
+    height: 51%;
+    margin: auto 0 auto auto;
+    
+}
+
+.footerlinks ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.footerlinks ul li{
+    margin-bottom: 0.6rem;
+}
+
+.footerlinks a{
+    text-decoration: none;
+    font-size: 1.2rem;
+    line-height: 1.7rem;
+    color: white;
+    letter-spacing: -0.05rem;
+    transition: all 0.2s ease-in-out;
+}
+
+.footerlinks a:hover{
+    color: #999999;
+}
+
+.lowerfooter{
+    width: 88%;
+    height: 4.375rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin:auto;
+    padding-top: 1.875rem;
+}
+
+
+.designation{
+    width: 40%;
+    height: 1.313rem;
+}
+
+.designation h6{
+    font-size: 1rem;
+    line-height: 1.313rem;
+    letter-spacing: -0.05rem;
+    font-weight: 400;
+}
+
+
+.lowerfooterlinks{
+    width: 11.875rem;
+    height: 2.5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.socialmedialink{
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 3.125rem;
+    border: 1px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.3s ease-in-out;
+}
+
+.socialmedialink:hover{
+    transform: scale(0.95);
+}
+
+
+/* static edit ends */
+
+/* dynamic edit pending!! */
